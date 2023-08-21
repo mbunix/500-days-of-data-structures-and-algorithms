@@ -97,7 +97,5 @@ const separateNumbers = (s) => {
 
   // If all possible split str are not same as S(Input)
   return console.log("NO");
-    }
-    
-    
 }
+    
