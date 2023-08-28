@@ -11,19 +11,19 @@
 
 import 'dart:math';
 
-int powerSum(int X, int N) {
-  // Write your code here
-  int countWays(int num, int sum) {
-    if (sum == X) {
-      return 1;
-    } else if (sum > X || num > (X / num)) {
-      return 0;
-    }
-    int ways = 0;
-    ways += countWays(num + 1, sum + (num.pow(N)).toInt());
-    ways += countWays(num + 1, sum);
-    return ways;
-  }
+// int powerSum(int X, int N) {
+//   // Write your code here
+//   int countWays(int num, int sum) {
+//     if (sum == X) {
+//       return 1;
+//     } else if (sum > X || num > (X / num)) {
+//       return 0;
+//     }
+//     int ways = 0;
+//     ways += countWays(num + 1, sum + (num.pow(N)).toInt());
+//     ways += countWays(num + 1, sum);
+//     return ways;
+//   }
 
-  return countWays(1, 0);
-}
+//   return countWays(1, 0);
+// }

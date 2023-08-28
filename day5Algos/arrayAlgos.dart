@@ -42,18 +42,18 @@ int removeDuplicates(List<int> nums) {
   }
 
 // validation of the solutionS
-void main() {
-   List<int> nums = [1, 1, 2, 2, 3, 4, 4, 4, 5, 6, 6];
-  int k = removeDuplicates(nums);
+// void main() {
+//    List<int> nums = [1, 1, 2, 2, 3, 4, 4, 4, 5, 6, 6];
+//   int k = removeDuplicates(nums);
   
-  List<int> nums = [3, 2, 2, 3];
-  int val = 3;
-  List<int> expectedNums = [2, 2];
-  int k = removeElement(nums, val);
-  assert(k == expectedNums.length);
-  nums.sort();
-  for (int i = 0;i<k ;i++) {
-    assert(nums[i] == expectedNums[i]);
-  }
-}
+//   List<int> nums = [3, 2, 2, 3];
+//   int val = 3;
+//   List<int> expectedNums = [2, 2];
+//   int k = removeElement(nums, val);
+//   assert(k == expectedNums.length);
+//   nums.sort();
+//   for (int i = 0;i<k ;i++) {
+//     assert(nums[i] == expectedNums[i]);
+//   }
+// }
 
